@@ -3,24 +3,32 @@ body{
     flex-direction: column;
 }
 
-.header{
+.Header{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding:48px;
+    padding-left: 259px;
+    padding-right: 259px;
     justify-self: flex-start;
+    border: 2px solid brown;
+    align-items: center;
+    margin: 0;
 }
-#logo{
+#Logo{
     color: #f9faf8;
     font-size: 24px;
+    border: 2px solid brown;
 }
 
 ul{
     display: flex;
     list-style: none;
+    gap: 10px;
+    border: 2px solid brown;
 }
 
 a{
     text-decoration: none;
     color: #e5e7eb;
+    border: 2px solid brown;
 }
