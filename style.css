@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding:48px;
+    justify-self: flex-start;
+}
+#logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
